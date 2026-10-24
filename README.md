@@ -220,14 +220,6 @@ The notebook generates a comparison table sorted by test track-level accuracy, a
 
 **Add your measured results here after running the notebook.** Do not report example or expected accuracies as experimental results.
 
-Suggested summary table:
-
-| Model | Validation segment accuracy | Validation track accuracy | Test segment accuracy | Test track accuracy |
-|---|---:|---:|---:|---:|
-| Best traditional ML model | — | — | — | — |
-| CNN from scratch | — | — | — | — |
-| Fine-tuned MobileNetV2 | — | — | — | — |
-
 The notebook writes the model comparison table to `results.csv`.
 
 ## ⚠️ Limitations
