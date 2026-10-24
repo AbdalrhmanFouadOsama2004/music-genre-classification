@@ -240,6 +240,7 @@ The trained model files can be large, especially transfer_model.keras. To keep t
 Files Not Included
 
 transfer_model.keras — Trained transfer learning model.
+gtzan_cache.npz — Cached preprocessed dataset and features.
 
 🚀 How to Get Started
 
