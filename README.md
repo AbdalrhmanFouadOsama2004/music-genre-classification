@@ -241,6 +241,32 @@ The notebook writes the model comparison table to `results.csv`.
 
 For stronger conclusions, repeat experiments with multiple seeds or use stratified group cross-validation by track.
 
+## 📦 Model Artifacts and Large Files
+
+The trained model files can be large, especially transfer_model.keras. To keep this repository lightweight and easy to clone, trained models and generated files are not included in the GitHub repository.
+
+Files Not Included
+
+transfer_model.keras — Trained transfer learning model.
+
+🚀 How to Get Started
+
+Clone this repository.
+
+Install the required dependencies.
+
+Download and configure the GTZAN dataset.
+
+Open and run music_genre_classification.ipynb to preprocess the data and train the models.
+
+The required model files will be generated during notebook execution.
+
+Using a Pre-trained Model
+
+If you want to make predictions without training the model again, you must download the corresponding pre-trained .keras file separately.
+
+Note: Model files are excluded to reduce repository size. You may need to retrain the models or download the pre-trained weights before running inference.
+
 ## 🔮 Future Improvements
 
 - Compare `MobileNetV2` and `EfficientNetB0` systematically.
